@@ -14,3 +14,7 @@ This project aims upon creating an automated parking lot where the cars are allo
 # Product Perspective
 
 This project aims to create an automated parking lot where cars are registered for parking spots based on their license plate numbers. The license plates are captured by a camera fitted near the entrance to the parking lot. This data is then sent to the Raspberry Pi. The Pi processes this image by using an external, web-based API, OpenALPR. OpenALPR has a cloud based API that is used to process the data. This helps remove potential processing load from the Pi, which does not have a high power CPU, thus allowing us to execute complex algorithms on the Pi. The API recognises the number plate using its algorithms and returns the plate number hence extracted. The number is then used to allot a parking spot to the car. When the car reaches the exit, it is removed from the spot list and the spot is then indicated as being empty, free to be allocated to other cars.
+
+<img width="555" alt="image" src="https://user-images.githubusercontent.com/64325972/144745085-b67de816-761d-474b-9fde-1b1b8b047678.png">
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/64325972/144745104-fd6ac6b8-96d4-40ac-8545-5918d4e07570.png">
