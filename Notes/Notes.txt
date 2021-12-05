@@ -1,0 +1,12 @@
+How to upgrade Pip::
+command ::pip install --upgrade pip
+
+
+How to install paho::
+https://stackoverflow.com/questions/41480256/import-error-paho-mqtt-client-not-found
+command :: pip3 install paho-mqtt python-etcd
+
+
+Urlparse error::
+https://stackoverflow.com/questions/40751741/python-url-parsing-function-object-has-no-attribute-urlparse
+https://stackoverflow.com/questions/50146520/no-module-named-urlparse-but-im-not-using-urlparse
